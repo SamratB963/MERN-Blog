@@ -1,0 +1,13 @@
+POST http://localhost:5000/api/addBlog
+
+content-type:application/json
+
+{
+    "blog_type": "HTML",
+    "blog": "Introduction to HTML",
+    "blog_description":"The HTML is the body of web page",
+    "create_by" : "Mike"
+}
+
+###
+GET http://localhost:5000/api/dispRecord
